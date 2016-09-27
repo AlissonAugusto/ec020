@@ -762,51 +762,51 @@ OUTPUT(bnc_oled.axf elf32-littlearm)
  .debug_ranges  0x00000500       0x50 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
  .debug_ranges  0x00000550       0x18 C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a(system_LPC17xx.o)
 
-.debug_line     0x00000000     0x488e
+.debug_line     0x00000000     0x487d
  .debug_line    0x00000000      0x329 ./src/Sensor.o
  .debug_line    0x00000329      0x368 ./src/cr_startup_lpc17.o
- .debug_line    0x00000691      0x447 ./src/main.o
- .debug_line    0x00000ad8      0x490 ./src/timer.o
- .debug_line    0x00000f68      0x58e C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
- .debug_line    0x000014f6      0x767 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
- .debug_line    0x00001c5d       0x82 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
- .debug_line    0x00001cdf      0x5de C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
- .debug_line    0x000022bd      0x8f9 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
- .debug_line    0x00002bb6      0x45d C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
- .debug_line    0x00003013      0x82c C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
- .debug_line    0x0000383f      0x78a C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_timer.o)
- .debug_line    0x00003fc9      0x4be C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
- .debug_line    0x00004487      0x407 C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x00000691      0x436 ./src/main.o
+ .debug_line    0x00000ac7      0x490 ./src/timer.o
+ .debug_line    0x00000f57      0x58e C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_line    0x000014e5      0x767 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_line    0x00001c4c       0x82 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .debug_line    0x00001cce      0x5de C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_line    0x000022ac      0x8f9 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_line    0x00002ba5      0x45d C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_line    0x00003002      0x82c C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_line    0x0000382e      0x78a C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_timer.o)
+ .debug_line    0x00003fb8      0x4be C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .debug_line    0x00004476      0x407 C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a(system_LPC17xx.o)
 
-.debug_macinfo  0x00000000    0x7549d
+.debug_macinfo  0x00000000    0x74c13
  .debug_macinfo
                 0x00000000     0x9373 ./src/Sensor.o
  .debug_macinfo
                 0x00009373     0x2c15 ./src/cr_startup_lpc17.o
  .debug_macinfo
-                0x0000bf88     0xa461 ./src/main.o
+                0x0000bf88     0x9bd7 ./src/main.o
  .debug_macinfo
-                0x000163e9     0x721c ./src/timer.o
+                0x00015b5f     0x721c ./src/timer.o
  .debug_macinfo
-                0x0001d605     0x8e3a C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                0x0001cd7b     0x8e3a C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
  .debug_macinfo
-                0x0002643f     0xa143 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00025bb5     0xa143 C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
  .debug_macinfo
-                0x00030582     0x332a C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+                0x0002fcf8     0x332a C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
  .debug_macinfo
-                0x000338ac     0x86b8 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00033022     0x86b8 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
  .debug_macinfo
-                0x0003bf64     0xa5d8 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x0003b6da     0xa5d8 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
  .debug_macinfo
-                0x0004653c     0x87d3 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00045cb2     0x87d3 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
  .debug_macinfo
-                0x0004ed0f     0xa8d0 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x0004e485     0xa8d0 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
  .debug_macinfo
-                0x000595df     0xa4cd C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_timer.o)
+                0x00058d55     0xa4cd C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_timer.o)
  .debug_macinfo
-                0x00063aac     0x95f9 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00063222     0x95f9 C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
  .debug_macinfo
-                0x0006d0a5     0x83f8 C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x0006c81b     0x83f8 C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a(system_LPC17xx.o)
 
 .debug_str      0x00000000     0x1f8b
  .debug_str     0x00000000      0x170 ./src/Sensor.o

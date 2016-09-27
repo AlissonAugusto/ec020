@@ -7,7 +7,6 @@ src/main.d: ../src/main.c \
  C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_gpio.h \
  C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_i2c.h \
  C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_ssp.h \
- C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_adc.h \
  C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_timer.h \
  C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\inc/oled.h ../src/Sensor.h
 
@@ -26,8 +25,6 @@ C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_gpio.h:
 C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_i2c.h:
 
 C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_ssp.h:
-
-C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_adc.h:
 
 C:\Users\aliss\Desktop\ec_020\Lib_MCU\inc/lpc17xx_timer.h:
 

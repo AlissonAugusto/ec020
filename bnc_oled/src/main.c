@@ -11,7 +11,6 @@
 #include "lpc17xx_gpio.h"
 #include "lpc17xx_i2c.h"
 #include "lpc17xx_ssp.h"
-#include "lpc17xx_adc.h"
 #include "lpc17xx_timer.h"
 
 #include "oled.h"
@@ -146,7 +145,7 @@ int main (void) {
 
     oled_clearScreen(OLED_COLOR_WHITE);
 
-    oled_putString(1,1,  (uint8_t*)"ETE: ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
+    oled_putString(1,1,  (uint8_t*)"LUZ: ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
 
     while(1) {
 
