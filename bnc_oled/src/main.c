@@ -13,9 +13,10 @@
 #include "lpc17xx_ssp.h"
 #include "lpc17xx_adc.h"
 #include "lpc17xx_timer.h"
-#include "timer.h"
 
 #include "oled.h"
+
+#include "Sensor.h"
 
 static uint8_t buf[10];
 
@@ -128,67 +129,34 @@ static void init_i2c(void)
 	I2C_Cmd(LPC_I2C2, ENABLE);
 }
 
-static void init_adc(void)
+void Read_packet(void)
 {
-	PINSEL_CFG_Type PinCfg;
-
-	/*
-	 * Init ADC pin connect
-	 * AD0.5 on P1.31
-	 */
-	PinCfg.Funcnum = 3;
-	PinCfg.OpenDrain = 0;
-	PinCfg.Pinmode = 0;
-	PinCfg.Pinnum = 31;
-	PinCfg.Portnum = 1;
-	PINSEL_ConfigPin(&PinCfg);
-
-	/* Configuration for ADC :
-	 * 	Frequency at 1Mhz
-	 *  ADC channel 5, no Interrupt
-	 */
-	ADC_Init(LPC_ADC, 1000000);
-	ADC_IntConfig(LPC_ADC,ADC_CHANNEL_5,DISABLE);
-	ADC_ChannelCmd(LPC_ADC,ADC_CHANNEL_5,ENABLE);
-
+    /* delay */
+	Timer0_Wait(200);
 }
-
-uint32_t Interrupt_Flag = 0;
 
 int main (void) {
 
-    uint32_t val  = 0;
-    TimerInit(3, 1200000000);
-    enable_timer(3);
+	int val = 0;
     init_i2c();
     init_ssp();
-    init_adc();
-    light_enable();
+
     oled_init();
+	Sensor_new();
 
     oled_clearScreen(OLED_COLOR_WHITE);
 
-    oled_putString(1,1,  (uint8_t*)"LUZ: ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
+    oled_putString(1,1,  (uint8_t*)"ETE: ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
 
     while(1) {
 
-        /* analog input connected to BNC */
-    	//ADC_StartCmd(LPC_ADC,ADC_START_NOW);
-    	//Wait conversion complete
-    	//while (!(ADC_ChannelGetStatus(LPC_ADC,ADC_CHANNEL_5,ADC_DATA_DONE)));
-    	//val = ADC_ChannelGetData(LPC_ADC,ADC_CHANNEL_5);
-
-    	if(Interrupt_Flag == 1){
-            /* output values to OLED display */
-        	val = light_read();
-        	Interrupt_Flag = 0;
-            intToString(val, buf, 10, 10);
-            oled_fillRect((1+6*6),1, 80, 8, OLED_COLOR_WHITE);
-            oled_putString((1+6*6),1, buf, OLED_COLOR_BLACK, OLED_COLOR_WHITE);
-    	}
+    	val = Sensor_read();
+        intToString(val, buf, 10, 10);
+        oled_fillRect((1+6*6),1, 80, 8, OLED_COLOR_WHITE);
+        oled_putString((1+6*6),1, buf, OLED_COLOR_BLACK, OLED_COLOR_WHITE);
 
         /* delay */
-        Timer0_Wait(200);
+        Read_packet();
     }
 
 }
@@ -200,9 +168,4 @@ void check_failed(uint8_t *file, uint32_t line)
 
 	/* Infinite loop */
 	while(1);
-}
-
-void TIMER3_IRQHandler(void){
-	TIMER3_interrupt();
-	Interrupt_Flag = 1;
 }

@@ -29,7 +29,7 @@ all: bnc_oled.axf
 bnc_oled.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\aliss\Desktop\lpc1768_xpr_bb_110111\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\aliss\Desktop\lpc1768_xpr_bb_110111\Lib_EaBaseBoard\Debug" -L"C:\Users\aliss\Desktop\lpc1768_xpr_bb_110111\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=bnc_oled.map -mcpu=cortex-m3 -mthumb -T "bnc_oled_Debug.ld" -o "bnc_oled.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\aliss\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\aliss\Desktop\ec_020\Lib_EaBaseBoard\Debug" -L"C:\Users\aliss\Desktop\ec_020\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=bnc_oled.map -mcpu=cortex-m3 -mthumb -T "bnc_oled_Debug.ld" -o "bnc_oled.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build
