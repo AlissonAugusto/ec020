@@ -28,7 +28,7 @@ all: Example06.axf
 Example06.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU Linker'
-	arm-none-eabi-gcc -nostdlib -L"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug" -L"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug" -Xlinker --gc-sections -Xlinker -Map=Example06.map -mcpu=cortex-m3 -mthumb -T "Example06_Debug.ld" -o "Example06.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -nostdlib -L"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug" -L"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug" -L"C:\Users\aluno\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug" -L"C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug" -L"C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug" -Xlinker --gc-sections -Xlinker -Map=Example06.map -mcpu=cortex-m3 -mthumb -T "Example06_Debug.ld" -o "Example06.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

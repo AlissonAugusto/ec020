@@ -23,7 +23,7 @@ C_DEPS += \
 %.o: ../%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: MCU C Compiler'
-	arm-none-eabi-gcc -D__REDLIB__ -I"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\include" -I"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\inc" -I"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\portable" -I"C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\demo_code" -O1 -g3 -Wall -c -fmessage-length=0 -mcpu=cortex-m3 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
+	arm-none-eabi-gcc -D__REDLIB__ -I"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\include" -I"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\inc" -I"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\portable" -I"C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\demo_code" -O1 -g3 -Wall -c -fmessage-length=0 -mcpu=cortex-m3 -mthumb -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

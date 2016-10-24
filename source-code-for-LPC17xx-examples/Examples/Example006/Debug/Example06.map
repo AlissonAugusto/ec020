@@ -1,31 +1,49 @@
 Archive member included because of file (symbol)
 
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
                               ./cr_startup_lpc17.o (SystemInit)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
                               ./cr_startup_lpc17.o (vPortSVCHandler)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
                               ./main.o (vPrintString)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (consoleprint)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (consoleprint)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
                               ./main.o (xTaskGenericCreate)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (pvPortMalloc)
-C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (vListInitialise)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (pvPortMalloc)
+C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (vListInitialise)
+C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                              ./Sensor.o (light_enable)
+C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                              ./main.o (oled_init)
+C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+                              C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o) (font5x7)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                              C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o) (GPIO_SetDir)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                              ./main.o (I2C_Init)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+                              C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o) (check_failed)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                              ./main.o (PINSEL_ConfigPin)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                              ./main.o (SSP_Init)
+C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                              C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o) (CLKPWR_SetPCLKDiv)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o) (__write)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o) (__write)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
                               ./cr_startup_lpc17.o (__main)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (memset)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (memset)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (sprintf)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (sprintf)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o) (_initio)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (memcmp)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (memcmp)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o) (__vfprintf)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
@@ -33,11 +51,11 @@ c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o) (__Ciob)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (strcpy)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o) (strcpy)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o) (strlen)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o) (strlen)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (strncpy)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o) (strncpy)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__fillbuf.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o) (__filbuf)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
@@ -75,7 +93,7 @@ c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_hugeval.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_ldexpl.o) (__huge_vall)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(division.o)
-                              C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
+                              C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o) (__aeabi_uldivmod)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
                               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o) (__aeabi_dmul)
 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
@@ -108,6 +126,7 @@ c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2
 Allocating common symbols
 Common symbol       size              file
 
+ClassHandle         0x4               ./Sensor.o
 _extra              0x4               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
 __heaps             0x4               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
 __end_of_heap       0x4               c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
@@ -115,6 +134,9 @@ __Ciob              0x140             c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/to
 
 Discarded input sections
 
+ .text          0x00000000        0x0 ./Sensor.o
+ .data          0x00000000        0x0 ./Sensor.o
+ .bss           0x00000000        0x0 ./Sensor.o
  .text          0x00000000        0x0 ./cr_startup_lpc17.o
  .data          0x00000000        0x0 ./cr_startup_lpc17.o
  .bss           0x00000000        0x0 ./cr_startup_lpc17.o
@@ -125,20 +147,162 @@ Discarded input sections
  .text.SysTick_Handler
                 0x00000000        0x8 ./cr_startup_lpc17.o
  .text          0x00000000        0x0 ./main.o
- .bss           0x00000000        0x0 ./main.o
- .text          0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .data          0x00000000        0x4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .bss           0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
  .text.SystemCoreClockUpdate
-                0x00000000      0x2d0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .bss           0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .rodata        0x00000000        0x4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .data          0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .data          0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .bss           0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .data          0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .data          0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
- .bss           0x00000000        0x0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                0x00000000      0x2d0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .rodata        0x00000000        0x4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.readCommandReg
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.readControlReg
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_init
+                0x00000000        0xc C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setMode
+                0x00000000       0x50 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setWidth
+                0x00000000       0xa4 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setRange
+                0x00000000       0xac C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setHiThreshold
+                0x00000000       0x58 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setLoThreshold
+                0x00000000       0x58 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_setIrqInCycles
+                0x00000000       0x48 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_getIrqStatus
+                0x00000000       0x28 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_clearIrqStatus
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_shutdown
+                0x00000000       0x60 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.oled_line
+                0x00000000      0x1d4 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.oled_circle
+                0x00000000      0x32c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.oled_rect
+                0x00000000       0x48 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordGetPointer
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteGetPointer
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_ReadValue
+                0x00000000       0x30 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetDir
+                0x00000000       0x28 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetValue
+                0x00000000       0x20 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ClearValue
+                0x00000000       0x20 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ReadValue
+                0x00000000       0x20 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_SetMask
+                0x00000000       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetDir
+                0x00000000       0x94 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetMask
+                0x00000000       0x94 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordSetValue
+                0x00000000       0x40 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordClearValue
+                0x00000000       0x40 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_HalfWordReadValue
+                0x00000000       0x44 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetDir
+                0x00000000       0x70 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetMask
+                0x00000000       0x78 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteSetValue
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteClearValue
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.FIO_ByteReadValue
+                0x00000000       0x40 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SlaveHandler
+                0x00000000      0x1e4 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_DeInit
+                0x00000000       0xa4 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SlaveTransferData
+                0x00000000      0x2a4 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SetOwnSlaveAddr
+                0x00000000      0x114 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorModeConfig
+                0x00000000       0x98 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorModeCmd
+                0x00000000       0x8c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_MonitorGetDatabuffer
+                0x00000000       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C0_StdIntHandler
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C1_StdIntHandler
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C2_StdIntHandler
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_ConfigTraceFunc
+                0x00000000       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text.PINSEL_SetI2C0Pins
+                0x00000000       0x3c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_DeInit
+                0x00000000       0x74 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_LoopBackCmd
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_SlaveOutputCmd
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetStatus
+                0x00000000       0x84 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_IntConfig
+                0x00000000       0x98 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetRawIntStatus
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_GetIntStatus
+                0x00000000       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_ClearIntPending
+                0x00000000       0x60 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_DMACmd
+                0x00000000       0xa8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP0_StdIntHandler
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP1_StdIntHandler
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .data          0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .bss           0x00000000        0x0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.__WFI    0x00000000        0xc C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_Sleep
+                0x00000000       0x1c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepSleep
+                0x00000000       0x28 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_PowerDown
+                0x00000000       0x28 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+ .text.CLKPWR_DeepPowerDown
+                0x00000000       0x28 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
  .text          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
  .data          0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
  .bss           0x00000000        0x0 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
@@ -398,10 +562,14 @@ RamAHB32         0x2007c000         0x00008000         xrw
 
 Linker script and memory map
 
+LOAD ./Sensor.o
 LOAD ./cr_startup_lpc17.o
 LOAD ./main.o
-LOAD C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a
-LOAD C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a
+LOAD C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a
+LOAD C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a
+LOAD C:\Users\aluno\Desktop\ec_020\Lib_CMSISv1p30_LPC17xx\Debug\libLib_CMSISv1p30_LPC17xx.a
+LOAD C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a
+LOAD C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a
 START GROUP
 LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a
 LOAD c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a
@@ -411,7 +579,7 @@ END GROUP
                 0x10008000                __top_RamLoc32 = 0x10008000
                 0x20084000                __top_RamAHB32 = 0x20084000
 
-.text           0x00000000     0x3f98
+.text           0x00000000     0x6b08
  FILL mask 0xff
                 0x00000000                __vectors_start__ = ABSOLUTE (.)
  *(.isr_vector)
@@ -420,342 +588,492 @@ END GROUP
                 0x000000cc                . = ALIGN (0x4)
                 0x000000cc                __section_table_start = .
                 0x000000cc                __data_section_table = .
-                0x000000cc        0x4 LONG 0x3f98 LOADADDR (.data)
+                0x000000cc        0x4 LONG 0x6b08 LOADADDR (.data)
                 0x000000d0        0x4 LONG 0x10000000 ADDR (.data)
-                0x000000d4        0x4 LONG 0x14 SIZEOF (.data)
-                0x000000d8        0x4 LONG 0x3f98 LOADADDR (.data_RAM2)
+                0x000000d4        0x4 LONG 0x24 SIZEOF (.data)
+                0x000000d8        0x4 LONG 0x6b08 LOADADDR (.data_RAM2)
                 0x000000dc        0x4 LONG 0x2007c000 ADDR (.data_RAM2)
                 0x000000e0        0x4 LONG 0x0 SIZEOF (.data_RAM2)
                 0x000000e4                __data_section_table_end = .
                 0x000000e4                __bss_section_table = .
-                0x000000e4        0x4 LONG 0x10000018 ADDR (.bss)
-                0x000000e8        0x4 LONG 0x2aa0 SIZEOF (.bss)
+                0x000000e4        0x4 LONG 0x10000028 ADDR (.bss)
+                0x000000e8        0x4 LONG 0x2df0 SIZEOF (.bss)
                 0x000000ec        0x4 LONG 0x2007c000 ADDR (.bss_RAM2)
                 0x000000f0        0x4 LONG 0x0 SIZEOF (.bss_RAM2)
                 0x000000f4                __bss_section_table_end = .
                 0x000000f4                __section_table_end = .
  *(.after_vectors*)
  *(.text*)
+ .text.Sensor_new
+                0x000000f4        0xc ./Sensor.o
+                0x000000f4                Sensor_new
+ .text.Sensor_light_read
+                0x00000100       0x18 ./Sensor.o
+                0x00000100                Sensor_light_read
+ .text.Sensor_read
+                0x00000118       0x18 ./Sensor.o
+                0x00000118                Sensor_read
  .text.ResetISR
-                0x000000f4       0x68 ./cr_startup_lpc17.o
-                0x000000f4                ResetISR
+                0x00000130       0x68 ./cr_startup_lpc17.o
+                0x00000130                ResetISR
  .text.NMI_Handler
-                0x0000015c        0x8 ./cr_startup_lpc17.o
-                0x0000015c                NMI_Handler
+                0x00000198        0x8 ./cr_startup_lpc17.o
+                0x00000198                NMI_Handler
  .text.HardFault_Handler
-                0x00000164        0x8 ./cr_startup_lpc17.o
-                0x00000164                HardFault_Handler
+                0x000001a0        0x8 ./cr_startup_lpc17.o
+                0x000001a0                HardFault_Handler
  .text.MemManage_Handler
-                0x0000016c        0x8 ./cr_startup_lpc17.o
-                0x0000016c                MemManage_Handler
+                0x000001a8        0x8 ./cr_startup_lpc17.o
+                0x000001a8                MemManage_Handler
  .text.BusFault_Handler
-                0x00000174        0x8 ./cr_startup_lpc17.o
-                0x00000174                BusFault_Handler
+                0x000001b0        0x8 ./cr_startup_lpc17.o
+                0x000001b0                BusFault_Handler
  .text.UsageFault_Handler
-                0x0000017c        0x8 ./cr_startup_lpc17.o
-                0x0000017c                UsageFault_Handler
+                0x000001b8        0x8 ./cr_startup_lpc17.o
+                0x000001b8                UsageFault_Handler
  .text.DebugMon_Handler
-                0x00000184        0x8 ./cr_startup_lpc17.o
-                0x00000184                DebugMon_Handler
+                0x000001c0        0x8 ./cr_startup_lpc17.o
+                0x000001c0                DebugMon_Handler
  .text.IntDefaultHandler
-                0x0000018c        0x8 ./cr_startup_lpc17.o
-                0x0000018c                TIMER2_IRQHandler
-                0x0000018c                RIT_IRQHandler
-                0x0000018c                I2C0_IRQHandler
-                0x0000018c                USBActivity_IRQHandler
-                0x0000018c                PWM1_IRQHandler
-                0x0000018c                I2C1_IRQHandler
-                0x0000018c                EINT2_IRQHandler
-                0x0000018c                UART1_IRQHandler
-                0x0000018c                EINT3_IRQHandler
-                0x0000018c                CANActivity_IRQHandler
-                0x0000018c                TIMER3_IRQHandler
-                0x0000018c                UART0_IRQHandler
-                0x0000018c                IntDefaultHandler
-                0x0000018c                PLL0_IRQHandler
-                0x0000018c                CAN_IRQHandler
-                0x0000018c                PLL1_IRQHandler
-                0x0000018c                SSP0_IRQHandler
-                0x0000018c                I2S_IRQHandler
-                0x0000018c                I2C2_IRQHandler
-                0x0000018c                RTC_IRQHandler
-                0x0000018c                TIMER0_IRQHandler
-                0x0000018c                SPI_IRQHandler
-                0x0000018c                EINT1_IRQHandler
-                0x0000018c                TIMER1_IRQHandler
-                0x0000018c                UART2_IRQHandler
-                0x0000018c                ADC_IRQHandler
-                0x0000018c                SSP1_IRQHandler
-                0x0000018c                USB_IRQHandler
-                0x0000018c                BOD_IRQHandler
-                0x0000018c                WDT_IRQHandler
-                0x0000018c                QEI_IRQHandler
-                0x0000018c                EINT0_IRQHandler
-                0x0000018c                DMA_IRQHandler
-                0x0000018c                UART3_IRQHandler
-                0x0000018c                MCPWM_IRQHandler
-                0x0000018c                ENET_IRQHandler
- .text.main     0x00000194       0xbc ./main.o
-                0x00000194                main
+                0x000001c8        0x8 ./cr_startup_lpc17.o
+                0x000001c8                TIMER2_IRQHandler
+                0x000001c8                RIT_IRQHandler
+                0x000001c8                I2C0_IRQHandler
+                0x000001c8                USBActivity_IRQHandler
+                0x000001c8                PWM1_IRQHandler
+                0x000001c8                I2C1_IRQHandler
+                0x000001c8                EINT2_IRQHandler
+                0x000001c8                UART1_IRQHandler
+                0x000001c8                EINT3_IRQHandler
+                0x000001c8                CANActivity_IRQHandler
+                0x000001c8                TIMER3_IRQHandler
+                0x000001c8                UART0_IRQHandler
+                0x000001c8                IntDefaultHandler
+                0x000001c8                PLL0_IRQHandler
+                0x000001c8                CAN_IRQHandler
+                0x000001c8                PLL1_IRQHandler
+                0x000001c8                SSP0_IRQHandler
+                0x000001c8                I2S_IRQHandler
+                0x000001c8                I2C2_IRQHandler
+                0x000001c8                RTC_IRQHandler
+                0x000001c8                TIMER0_IRQHandler
+                0x000001c8                SPI_IRQHandler
+                0x000001c8                EINT1_IRQHandler
+                0x000001c8                TIMER1_IRQHandler
+                0x000001c8                UART2_IRQHandler
+                0x000001c8                ADC_IRQHandler
+                0x000001c8                SSP1_IRQHandler
+                0x000001c8                USB_IRQHandler
+                0x000001c8                BOD_IRQHandler
+                0x000001c8                WDT_IRQHandler
+                0x000001c8                QEI_IRQHandler
+                0x000001c8                EINT0_IRQHandler
+                0x000001c8                DMA_IRQHandler
+                0x000001c8                UART3_IRQHandler
+                0x000001c8                MCPWM_IRQHandler
+                0x000001c8                ENET_IRQHandler
+ .text.intToString
+                0x000001d0       0xdc ./main.o
+ .text.init_ssp
+                0x000002ac       0x98 ./main.o
+ .text.init_i2c
+                0x00000344       0x5c ./main.o
+ .text.main     0x000003a0       0xb8 ./main.o
+                0x000003a0                main
  .text.vContinuousProcessingTask
-                0x00000250       0x30 ./main.o
-                0x00000250                vContinuousProcessingTask
+                0x00000458       0x98 ./main.o
+                0x00000458                vContinuousProcessingTask
  .text.vPeriodicTask
-                0x00000280       0x2c ./main.o
-                0x00000280                vPeriodicTask
+                0x000004f0       0x30 ./main.o
+                0x000004f0                vPeriodicTask
  .text.vApplicationMallocFailedHook
-                0x000002ac        0x8 ./main.o
-                0x000002ac                vApplicationMallocFailedHook
+                0x00000520        0x8 ./main.o
+                0x00000520                vApplicationMallocFailedHook
  .text.vApplicationStackOverflowHook
-                0x000002b4        0xc ./main.o
-                0x000002b4                vApplicationStackOverflowHook
+                0x00000528        0xc ./main.o
+                0x00000528                vApplicationStackOverflowHook
  .text.vApplicationIdleHook
-                0x000002c0        0xc ./main.o
-                0x000002c0                vApplicationIdleHook
+                0x00000534        0xc ./main.o
+                0x00000534                vApplicationIdleHook
  .text.vApplicationTickHook
-                0x000002cc        0xc ./main.o
-                0x000002cc                vApplicationTickHook
+                0x00000540        0xc ./main.o
+                0x00000540                vApplicationTickHook
  .text.SystemInit
-                0x000002d8      0x22c C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
-                0x000002d8                SystemInit
- .text          0x00000504      0x154 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
-                0x00000504                pxPortInitialiseStack
-                0x00000524                vPortSVCHandler
-                0x00000544                vPortStartFirstTask
-                0x00000554                xPortStartScheduler
-                0x000005a4                vPortEndScheduler
-                0x000005a8                vPortYieldFromISR
-                0x000005b8                vPortEnterCritical
-                0x000005d4                vPortExitCritical
-                0x000005f0                xPortPendSVHandler
-                0x0000062c                xPortSysTickHandler
- .text          0x00000658       0x54 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
-                0x00000658                vPrintString
-                0x0000067c                vPrintStringAndNumber
- .text          0x000006ac       0x18 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
-                0x000006ac                consoleprint
- .text          0x000006c4      0xca4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
-                0x000006c4                xTaskGenericCreate
-                0x000008c4                vTaskDelete
-                0x00000944                uxTaskPriorityGet
-                0x00000964                vTaskPrioritySet
-                0x00000a18                xTaskIsTaskSuspended
-                0x00000a44                vTaskResume
-                0x00000ac0                xTaskResumeFromISR
-                0x00000b3c                vTaskStartScheduler
-                0x00000b90                vTaskEndScheduler
-                0x00000bb0                vTaskSuspendAll
-                0x00000bc8                xTaskGetTickCount
-                0x00000be4                xTaskGetTickCountFromISR
-                0x00000bf4                uxTaskGetNumberOfTasks
-                0x00000c00                vTaskIncrementTick
-                0x00000ce0                xTaskResumeAll
-                0x00000e5c                vTaskDelay
-                0x00000eb4                vTaskDelayUntil
-                0x00000f50                vTaskSwitchContext
-                0x0000104c                vTaskSuspend
-                0x000010d8                vTaskPlaceOnEventList
-                0x00001144                xTaskRemoveFromEventList
-                0x000011d0                vTaskSetTimeOutState
-                0x000011e8                xTaskCheckForTimeOut
-                0x00001268                vTaskMissedYield
-                0x0000127c                xTaskGetCurrentTaskHandle
-                0x00001288                vTaskPriorityInherit
-                0x00001314                vTaskPriorityDisinherit
- .text          0x00001368      0x140 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
-                0x00001368                pvPortMalloc
-                0x00001454                vPortFree
-                0x00001498                xPortGetFreeHeapSize
-                0x000014a4                vPortInitialiseBlocks
- .text          0x000014a8       0xa4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
-                0x000014a8                vListInitialise
-                0x000014c0                vListInitialiseItem
-                0x000014c8                vListInsertEnd
-                0x000014e8                vListInsert
-                0x00001524                vListRemove
+                0x0000054c      0x22c C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x0000054c                SystemInit
+ .text          0x00000778      0x154 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+                0x00000778                pxPortInitialiseStack
+                0x00000798                vPortSVCHandler
+                0x000007b8                vPortStartFirstTask
+                0x000007c8                xPortStartScheduler
+                0x00000818                vPortEndScheduler
+                0x0000081c                vPortYieldFromISR
+                0x0000082c                vPortEnterCritical
+                0x00000848                vPortExitCritical
+                0x00000864                xPortPendSVHandler
+                0x000008a0                xPortSysTickHandler
+ .text          0x000008cc       0x54 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+                0x000008cc                vPrintString
+                0x000008f0                vPrintStringAndNumber
+ .text          0x00000920       0x18 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+                0x00000920                consoleprint
+ .text          0x00000938      0xca4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x00000938                xTaskGenericCreate
+                0x00000b38                vTaskDelete
+                0x00000bb8                uxTaskPriorityGet
+                0x00000bd8                vTaskPrioritySet
+                0x00000c8c                xTaskIsTaskSuspended
+                0x00000cb8                vTaskResume
+                0x00000d34                xTaskResumeFromISR
+                0x00000db0                vTaskStartScheduler
+                0x00000e04                vTaskEndScheduler
+                0x00000e24                vTaskSuspendAll
+                0x00000e3c                xTaskGetTickCount
+                0x00000e58                xTaskGetTickCountFromISR
+                0x00000e68                uxTaskGetNumberOfTasks
+                0x00000e74                vTaskIncrementTick
+                0x00000f54                xTaskResumeAll
+                0x000010d0                vTaskDelay
+                0x00001128                vTaskDelayUntil
+                0x000011c4                vTaskSwitchContext
+                0x000012c0                vTaskSuspend
+                0x0000134c                vTaskPlaceOnEventList
+                0x000013b8                xTaskRemoveFromEventList
+                0x00001444                vTaskSetTimeOutState
+                0x0000145c                xTaskCheckForTimeOut
+                0x000014dc                vTaskMissedYield
+                0x000014f0                xTaskGetCurrentTaskHandle
+                0x000014fc                vTaskPriorityInherit
+                0x00001588                vTaskPriorityDisinherit
+ .text          0x000015dc      0x140 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+                0x000015dc                pvPortMalloc
+                0x000016c8                vPortFree
+                0x0000170c                xPortGetFreeHeapSize
+                0x00001718                vPortInitialiseBlocks
+ .text          0x0000171c       0xa4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                0x0000171c                vListInitialise
+                0x00001734                vListInitialiseItem
+                0x0000173c                vListInsertEnd
+                0x0000175c                vListInsert
+                0x00001798                vListRemove
+ .text.I2CRead  0x000017c0       0x5c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.I2CWrite
+                0x0000181c       0x5c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .text.light_enable
+                0x00001878       0x48 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                0x00001878                light_enable
+ .text.light_read
+                0x000018c0       0x90 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                0x000018c0                light_read
+ .text.writeCommand
+                0x00001950       0x60 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.writeData
+                0x000019b0       0x60 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.writeDataLen
+                0x00001a10       0x8c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.runInitSequence
+                0x00001a9c      0x118 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.hLine    0x00001bb4       0x4c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.vLine    0x00001c00       0x4c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .text.oled_init
+                0x00001c4c       0x9c C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00001c4c                oled_init
+ .text.oled_putPixel
+                0x00001ce8      0x188 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00001ce8                oled_putPixel
+ .text.oled_fillRect
+                0x00001e70       0x90 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00001e70                oled_fillRect
+ .text.oled_clearScreen
+                0x00001f00       0x74 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00001f00                oled_clearScreen
+ .text.oled_putChar
+                0x00001f74       0xf0 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00001f74                oled_putChar
+ .text.oled_putString
+                0x00002064       0x54 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                0x00002064                oled_putString
+ .text.GPIO_GetPointer
+                0x000020b8       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .text.GPIO_SetDir
+                0x00002134       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00002134                GPIO_SetDir
+ .text.GPIO_SetValue
+                0x00002188       0x2c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x00002188                GPIO_SetValue
+ .text.GPIO_ClearValue
+                0x000021b4       0x2c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                0x000021b4                GPIO_ClearValue
+ .text.NVIC_EnableIRQ
+                0x000021e0       0x38 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.NVIC_DisableIRQ
+                0x00002218       0x3c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_getNum
+                0x00002254       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_Start
+                0x000022a8       0x44 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_Stop
+                0x000022ec       0x38 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_SendByte
+                0x00002324       0x50 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_GetByte
+                0x00002374       0x5c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .text.I2C_IntCmd
+                0x000023d0       0xa8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x000023d0                I2C_IntCmd
+ .text.I2C_MasterHandler
+                0x00002478      0x408 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x00002478                I2C_MasterHandler
+ .text.I2C_SetClock
+                0x00002880       0xc8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x00002880                I2C_SetClock
+ .text.I2C_Init
+                0x00002948       0xd8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x00002948                I2C_Init
+ .text.I2C_Cmd  0x00002a20       0x84 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x00002a20                I2C_Cmd
+ .text.I2C_MasterTransferData
+                0x00002aa4      0x390 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                0x00002aa4                I2C_MasterTransferData
+ .text.check_failed
+                0x00002e34        0xc C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+                0x00002e34                check_failed
+ .text.PINSEL_SetPinFunc
+                0x00002e40       0x9c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00002e40                PINSEL_SetPinFunc
+ .text.PINSEL_SetResistorMode
+                0x00002edc       0x9c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00002edc                PINSEL_SetResistorMode
+ .text.PINSEL_SetOpenDrainMode
+                0x00002f78       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00002f78                PINSEL_SetOpenDrainMode
+ .text.PINSEL_ConfigPin
+                0x00002ff4       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                0x00002ff4                PINSEL_ConfigPin
+ .text.SSP_getNum
+                0x00003048       0x40 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .text.SSP_IntHandler
+                0x00003088      0x338 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00003088                SSP_IntHandler
+ .text.SSP_SetClock
+                0x000033c0       0xf8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x000033c0                SSP_SetClock
+ .text.SSP_Init
+                0x000034b8      0x10c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x000034b8                SSP_Init
+ .text.SSP_ConfigStructInit
+                0x000035c4       0x48 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x000035c4                SSP_ConfigStructInit
+ .text.SSP_Cmd  0x0000360c       0x7c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x0000360c                SSP_Cmd
+ .text.SSP_SendData
+                0x00003688       0x48 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00003688                SSP_SendData
+ .text.SSP_ReceiveData
+                0x000036d0       0x44 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x000036d0                SSP_ReceiveData
+ .text.SSP_ReadWrite
+                0x00003714      0x440 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                0x00003714                SSP_ReadWrite
+ .text.CLKPWR_SetPCLKDiv
+                0x00003b54       0xcc C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00003b54                CLKPWR_SetPCLKDiv
+ .text.CLKPWR_GetPCLKSEL
+                0x00003c20       0x54 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00003c20                CLKPWR_GetPCLKSEL
+ .text.CLKPWR_GetPCLK
+                0x00003c74       0x74 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00003c74                CLKPWR_GetPCLK
+ .text.CLKPWR_ConfigPPWR
+                0x00003ce8       0x78 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                0x00003ce8                CLKPWR_ConfigPPWR
  .text.__sys_write
-                0x0000154c        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
-                0x0000154c                __sys_write
-                0x0000154c                __write
- .text.__main   0x00001558       0x14 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
-                0x00001558                __CR_SEMIHOST
-                0x00001558                __main
- .text.memset   0x0000156c        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
-                0x0000156c                memset
+                0x00003d60        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
+                0x00003d60                __sys_write
+                0x00003d60                __write
+ .text.__main   0x00003d6c       0x14 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
+                0x00003d6c                __CR_SEMIHOST
+                0x00003d6c                __main
+ .text.memset   0x00003d80        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00003d80                memset
  .text.lose_trailing_zeros
-                0x00001570       0x1e c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+                0x00003d84       0x1e c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
  .text.fp_round
-                0x0000158e       0x54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+                0x00003da2       0x54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
  .text.pr_dec.constprop.1
-                0x000015e2       0x22 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
- .text.sprintf  0x00001604       0x70 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
-                0x00001604                sprintf
- *fill*         0x00001674        0x4 00
+                0x00003df6       0x22 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+ .text.sprintf  0x00003e18       0x70 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+                0x00003e18                sprintf
  .text.fp_display
-                0x00001678      0x908 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
- .text._initio  0x00001f80       0x9c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
-                0x00001f80                _initio
- .text.memcmp   0x0000201c       0x38 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
-                0x0000201c                memcmp
+                0x00003e88      0x908 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+ .text._initio  0x00004790       0x9c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x00004790                _initio
+ .text.memcmp   0x0000482c       0x38 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
+                0x0000482c                memcmp
  .text.__vfprintf
-                0x00002054      0xd54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
-                0x00002054                __vfprintf
- .text.setvbuf  0x00002da8       0x48 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
-                0x00002da8                setvbuf
- .text.strcpy   0x00002df0       0x44 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
-                0x00002df0                strcpy
- .text.strlen   0x00002e34       0x4c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
-                0x00002e34                strlen
- .text.strncpy  0x00002e80       0x54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
-                0x00002e80                strncpy
+                0x00004864      0xd54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
+                0x00004864                __vfprintf
+ .text.setvbuf  0x000055b8       0x48 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
+                0x000055b8                setvbuf
+ .text.strcpy   0x00005600       0x44 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+                0x00005600                strcpy
+ .text.strlen   0x00005644       0x4c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
+                0x00005644                strlen
+ .text.strncpy  0x00005690       0x54 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
+                0x00005690                strncpy
  .text._deferredlazyseek
-                0x00002ed4       0x44 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
-                0x00002ed4                _deferredlazyseek
+                0x000056e4       0x44 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
+                0x000056e4                _deferredlazyseek
  .text.__flsbuf
-                0x00002f18      0x14e c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
-                0x00002f18                __flsbuf
- .text._fdopen  0x00003066       0x6c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
-                0x00003066                _fdopen
- .text._fflush  0x000030d2       0x58 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
-                0x000030d2                _fflush
- .text._frexpl  0x0000312a       0x60 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_frexpl.o)
-                0x0000312a                _frexpl
- *fill*         0x0000318a        0x2 00
- .text._ldexpl  0x0000318c       0x50 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_ldexpl.o)
-                0x0000318c                _ldexpl
+                0x00005728      0x14e c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
+                0x00005728                __flsbuf
+ .text._fdopen  0x00005876       0x6c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
+                0x00005876                _fdopen
+ .text._fflush  0x000058e2       0x58 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
+                0x000058e2                _fflush
+ .text._frexpl  0x0000593a       0x60 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_frexpl.o)
+                0x0000593a                _frexpl
+ *fill*         0x0000599a        0x2 00
+ .text._ldexpl  0x0000599c       0x50 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_ldexpl.o)
+                0x0000599c                _ldexpl
  .text._Cwritebuf
-                0x000031dc       0x84 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
-                0x000031dc                _Cwritebuf
- .text.malloc   0x00003260       0xbc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x00003260                malloc
- .text.free     0x0000331c        0xa c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x0000331c                free
- *fill*         0x00003326        0x2 00
+                0x000059ec       0x84 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
+                0x000059ec                _Cwritebuf
+ .text.malloc   0x00005a70       0xbc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005a70                malloc
+ .text.free     0x00005b2c        0xa c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005b2c                free
+ *fill*         0x00005b36        0x2 00
  .text._Csys_alloc
-                0x00003328       0x20 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
-                0x00003328                _Csys_alloc
- .text.fclose   0x00003348       0x6c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
-                0x00003348                fclose
- .text.fflush   0x000033b4       0x34 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
-                0x000033b4                fflush
- .text.fseek    0x000033e8      0x104 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
-                0x000033e8                fseek
- .text.ftell    0x000034ec       0x4c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
-                0x000034ec                ftell
- .text.remove   0x00003538       0x14 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
-                0x00003538                remove
+                0x00005b38       0x20 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00005b38                _Csys_alloc
+ .text.fclose   0x00005b58       0x6c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
+                0x00005b58                fclose
+ .text.fflush   0x00005bc4       0x34 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
+                0x00005bc4                fflush
+ .text.fseek    0x00005bf8      0x104 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
+                0x00005bf8                fseek
+ .text.ftell    0x00005cfc       0x4c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
+                0x00005cfc                ftell
+ .text.remove   0x00005d48       0x14 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
+                0x00005d48                remove
  .text._do_fflush
-                0x0000354c       0x42 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
-                0x0000354c                _do_fflush
- *fill*         0x0000358e        0x2 00
+                0x00005d5c       0x42 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
+                0x00005d5c                _do_fflush
+ *fill*         0x00005d9e        0x2 00
  .text.__aeabi_dmul
-                0x00003590      0x138 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003590                __aeabi_dmul
+                0x00005da0      0x138 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00005da0                __aeabi_dmul
  .text.__aeabi_ddiv
-                0x000036c8      0x168 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x000036c8                __aeabi_ddiv
+                0x00005ed8      0x168 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00005ed8                __aeabi_ddiv
  .text.__aeabi_dsub
-                0x00003830      0x1f4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003830                __aeabi_dsub
+                0x00006040      0x1f4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006040                __aeabi_dsub
  .text.__aeabi_dadd
-                0x00003a24      0x154 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003a24                __aeabi_dadd
+                0x00006234      0x154 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006234                __aeabi_dadd
  .text.__aeabi_d2iz
-                0x00003b78       0x40 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003b78                __aeabi_d2iz
+                0x00006388       0x40 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006388                __aeabi_d2iz
  .text.__bhs_ui2d
-                0x00003bb8       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003bb8                __bhs_ui2d
+                0x000063c8       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000063c8                __bhs_ui2d
  .text.__aeabi_i2d
-                0x00003c14       0x10 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003c14                __aeabi_i2d
+                0x00006424       0x10 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006424                __aeabi_i2d
  .text.__aeabi_dcmpeq
-                0x00003c24       0x3c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003c24                __aeabi_dcmpeq
+                0x00006434       0x3c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006434                __aeabi_dcmpeq
  .text.__aeabi_dcmplt
-                0x00003c60       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003c60                __aeabi_dcmplt
+                0x00006470       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006470                __aeabi_dcmplt
  .text.__aeabi_dcmple
-                0x00003cbc       0x58 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003cbc                __aeabi_dcmple
+                0x000064cc       0x58 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000064cc                __aeabi_dcmple
  .text.__aeabi_dcmpge
-                0x00003d14       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
-                0x00003d14                __aeabi_dcmpge
+                0x00006524       0x5c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x00006524                __aeabi_dcmpge
  .text.__aeabi_memset_lowlevel
-                0x00003d70       0x24 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
-                0x00003d70                __aeabi_lowlevel_memset
+                0x00006580       0x24 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00006580                __aeabi_lowlevel_memset
  .text.__sys_appexit
-                0x00003d94        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_appexit.o)
-                0x00003d94                __sys_appexit
-                0x00003d94                __exit
+                0x000065a4        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_appexit.o)
+                0x000065a4                __sys_appexit
+                0x000065a4                __exit
  .text.__sys_close
-                0x00003da0        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_close.o)
-                0x00003da0                __sys_close
+                0x000065b0        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_close.o)
+                0x000065b0                __sys_close
  .text.__sys_flen
-                0x00003dac        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_flen.o)
-                0x00003dac                __sys_flen
+                0x000065bc        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_flen.o)
+                0x000065bc                __sys_flen
  .text.__sys_istty
-                0x00003db8        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_istty.o)
-                0x00003db8                __sys_istty
+                0x000065c8        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_istty.o)
+                0x000065c8                __sys_istty
  .text.__sys_remove
-                0x00003dc4        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_remove.o)
-                0x00003dc4                __sys_remove
+                0x000065d4        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_remove.o)
+                0x000065d4                __sys_remove
  .text.__sys_seek
-                0x00003dd0        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_seek.o)
-                0x00003dd0                __sys_seek
+                0x000065e0        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_seek.o)
+                0x000065e0                __sys_seek
  .text.__sys_tmpnam
-                0x00003ddc        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_tmpnam.o)
-                0x00003ddc                __sys_tmpnam
- .text._sbrk    0x00003de8       0x40 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_sbrk.o)
-                0x00003de8                _sbrk
+                0x000065ec        0xc c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_tmpnam.o)
+                0x000065ec                __sys_tmpnam
+ .text._sbrk    0x000065f8       0x40 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_sbrk.o)
+                0x000065f8                _sbrk
  .text.__check_heap_overflow
-                0x00003e28       0x2c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_check_heap.o)
-                0x00003e28                __check_heap_overflow
+                0x00006638       0x2c c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_check_heap.o)
+                0x00006638                __check_heap_overflow
  *(.rodata .rodata.*)
- .rodata        0x00003e54       0x90 ./main.o
+ .rodata        0x00006664       0xb8 ./main.o
  .rodata.str1.4
-                0x00003ee4        0x8 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .rodata        0x00003eec       0x14 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x0000671c        0x8 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .rodata        0x00006724       0x14 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
  .rodata.str1.4
-                0x00003f00        0x8 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x00006738        0x8 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .rodata        0x00006740        0x8 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .rodata        0x00006748      0x300 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+                0x00006748                font5x7
+ .rodata        0x00006a48       0x18 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .rodata        0x00006a60       0x18 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
  .rodata.str1.1
-                0x00003f08       0x34 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+                0x00006a78       0x34 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
                                  0x35 (size before relaxing)
  .rodata.str1.1
-                0x00003f3c        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x00006aac        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
  .rodata.str1.1
-                0x00003f40       0x31 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
+                0x00006ab0       0x31 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
                                  0x38 (size before relaxing)
  .rodata.str1.1
-                0x00003f71       0x18 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
- *fill*         0x00003f89        0x7 00
+                0x00006ae1       0x18 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+ *fill*         0x00006af9        0x7 00
  .rodata.__huge_vall
-                0x00003f90        0x8 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_hugeval.o)
-                0x00003f90                __huge_vall
-                0x00003f98                . = ALIGN (0x4)
+                0x00006b00        0x8 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_hugeval.o)
+                0x00006b00                __huge_vall
+                0x00006b08                . = ALIGN (0x4)
 
-.glue_7         0x00003f98        0x0
+.glue_7         0x00006b08        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x00003f98        0x0
+.glue_7t        0x00006b08        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x00003f98        0x0
+.vfp11_veneer   0x00006b08        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00003f98        0x0
+.v4_bx          0x00006b08        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00003f98                __exidx_start = .
+                0x00006b08                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00003f98                __exidx_end = .
-                0x00003f98                _etext = .
+                0x00006b08                __exidx_end = .
+                0x00006b08                _etext = .
 
-.data_RAM2      0x2007c000        0x0 load address 0x00003f98
+.data_RAM2      0x2007c000        0x0 load address 0x00006b08
  FILL mask 0xff
  *(.data.$RAM2*)
  *(.data.$RamAHB32*)
@@ -767,182 +1085,308 @@ END GROUP
                 0x10000000                . = ALIGN (0x4)
                 0x10000000                _end_uninit_RESERVED = .
 
-.data           0x10000000       0x14 load address 0x00003f98
+.data           0x10000000       0x24 load address 0x00006b08
  FILL mask 0xff
                 0x10000000                _data = .
  *(vtable)
  *(.data*)
- .data          0x10000000        0xc ./main.o
+ .data          0x10000000       0x10 ./main.o
                 0x10000000                pcTextForTask1
                 0x10000004                pcTextForTask2
                 0x10000008                pcTextForPeriodicTask
- .data          0x1000000c        0x4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .data          0x10000010        0x4 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
-                0x10000014                . = ALIGN (0x4)
-                0x10000014                _edata = .
+ .data          0x10000010        0x4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x10000010                SystemCoreClock
+ .data          0x10000014        0x4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .data          0x10000018        0x4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .data          0x1000001c        0x8 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                0x10000024                . = ALIGN (0x4)
+                0x10000024                _edata = .
 
 .bss_RAM2       0x2007c000        0x0
  *(.bss.$RAM2*)
  *(.bss.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.bss            0x10000018     0x2aa0
-                0x10000018                _bss = .
+.bss            0x10000028     0x2df0
+                0x10000028                _bss = .
  *(.bss*)
- .bss           0x10000018       0x34 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .bss           0x1000004c      0x100 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
-                0x10000050                pxCurrentTCB
- *fill*         0x1000014c        0x4 00
- .bss           0x10000150     0x2818 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .bss.errno     0x10002968        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
-                0x10002968                errno
+ .bss           0x10000028       0x10 ./main.o
+                0x10000034                val
+ .bss           0x10000038       0x34 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .bss           0x1000006c      0x100 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x10000070                pxCurrentTCB
+ *fill*         0x1000016c        0x4 00
+ .bss           0x10000170     0x2818 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .bss           0x10002988      0x300 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .bss           0x10002c88       0x24 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .bss           0x10002cac       0x18 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .bss.errno     0x10002cc4        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
+                0x10002cc4                errno
  *(COMMON)
- COMMON         0x1000296c        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
-                0x1000296c                _extra
- COMMON         0x10002970      0x140 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
-                0x10002970                __Ciob
- COMMON         0x10002ab0        0x8 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
-                0x10002ab0                __heaps
-                0x10002ab4                __end_of_heap
-                0x10002ab8                . = ALIGN (0x4)
-                0x10002ab8                _ebss = .
-                0x10002ab8                PROVIDE (end, .)
+ COMMON         0x10002cc8        0x4 ./Sensor.o
+                0x10002cc8                ClassHandle
+ COMMON         0x10002ccc        0x4 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x10002ccc                _extra
+ COMMON         0x10002cd0      0x140 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
+                0x10002cd0                __Ciob
+ COMMON         0x10002e10        0x8 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
+                0x10002e10                __heaps
+                0x10002e14                __end_of_heap
+                0x10002e18                . = ALIGN (0x4)
+                0x10002e18                _ebss = .
+                0x10002e18                PROVIDE (end, .)
 
 .noinit_RAM2    0x2007c000        0x0
  *(.noinit.$RAM2*)
  *(.noinit.$RamAHB32*)
                 0x2007c000                . = ALIGN (0x4)
 
-.noinit         0x10002ab8        0x0
-                0x10002ab8                _noinit = .
+.noinit         0x10002e18        0x0
+                0x10002e18                _noinit = .
  *(.noinit*)
-                0x10002ab8                . = ALIGN (0x4)
-                0x10002ab8                _end_noinit = .
-                0x10002ab8                PROVIDE (_pvHeapStart, .)
+                0x10002e18                . = ALIGN (0x4)
+                0x10002e18                _end_noinit = .
+                0x10002e18                PROVIDE (_pvHeapStart, .)
                 0x10008000                PROVIDE (_vStackTop, (__top_RamLoc32 - 0x0))
 OUTPUT(Example06.axf elf32-littlearm)
 
-.debug_info     0x00000000     0x1ffc
- .debug_info    0x00000000      0x210 ./cr_startup_lpc17.o
- .debug_info    0x00000210      0x241 ./main.o
- .debug_info    0x00000451      0x385 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_info    0x000007d6      0x220 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .debug_info    0x000009f6      0x12c C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .debug_info    0x00000b22       0xaa C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .debug_info    0x00000bcc      0xe7c C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .debug_info    0x00001a48      0x2ef C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .debug_info    0x00001d37      0x2c5 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+.debug_info     0x00000000     0x62f9
+ .debug_info    0x00000000      0x14c ./Sensor.o
+ .debug_info    0x0000014c      0x210 ./cr_startup_lpc17.o
+ .debug_info    0x0000035c      0x62f ./main.o
+ .debug_info    0x0000098b      0x385 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_info    0x00000d10      0x220 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_info    0x00000f30      0x12c C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_info    0x0000105c       0xaa C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_info    0x00001106      0xe7c C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_info    0x00001f82      0x2ef C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_info    0x00002271      0x2c5 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_info    0x00002536      0x763 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_info    0x00002c99      0x97d C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_info    0x00003616       0x65 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .debug_info    0x0000367b      0xb95 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_info    0x00004210      0xcc3 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_info    0x00004ed3       0xcd C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_info    0x00004fa0      0x4b1 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_info    0x00005451      0x867 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_info    0x00005cb8      0x641 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_abbrev   0x00000000      0x9fe
- .debug_abbrev  0x00000000       0xb4 ./cr_startup_lpc17.o
- .debug_abbrev  0x000000b4       0xfc ./main.o
- .debug_abbrev  0x000001b0       0xce C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_abbrev  0x0000027e      0x141 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .debug_abbrev  0x000003bf       0x9b C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .debug_abbrev  0x0000045a       0x7b C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .debug_abbrev  0x000004d5      0x2b1 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .debug_abbrev  0x00000786      0x19e C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .debug_abbrev  0x00000924       0xda C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+.debug_abbrev   0x00000000     0x185f
+ .debug_abbrev  0x00000000       0xd7 ./Sensor.o
+ .debug_abbrev  0x000000d7       0xb4 ./cr_startup_lpc17.o
+ .debug_abbrev  0x0000018b      0x203 ./main.o
+ .debug_abbrev  0x0000038e       0xce C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_abbrev  0x0000045c      0x141 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_abbrev  0x0000059d       0x9b C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_abbrev  0x00000638       0x7b C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_abbrev  0x000006b3      0x2b1 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_abbrev  0x00000964      0x19e C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_abbrev  0x00000b02       0xda C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_abbrev  0x00000bdc      0x1bd C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_abbrev  0x00000d99      0x1f1 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_abbrev  0x00000f8a       0x4b C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .debug_abbrev  0x00000fd5      0x185 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_abbrev  0x0000115a      0x24a C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_abbrev  0x000013a4       0x6a C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_abbrev  0x0000140e      0x10a C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_abbrev  0x00001518      0x1d3 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_abbrev  0x000016eb      0x174 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_loc      0x00000000     0x1211
- .debug_loc     0x00000000      0x1f0 ./cr_startup_lpc17.o
- .debug_loc     0x000001f0      0x164 ./main.o
- .debug_loc     0x00000354       0x58 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_loc     0x000003ac       0x94 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .debug_loc     0x00000440       0x9a C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .debug_loc     0x000004da       0x5c C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .debug_loc     0x00000536      0xa90 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .debug_loc     0x00000fc6      0x201 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .debug_loc     0x000011c7       0x4a C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+.debug_loc      0x00000000     0x2b33
+ .debug_loc     0x00000000       0x84 ./Sensor.o
+ .debug_loc     0x00000084      0x1f0 ./cr_startup_lpc17.o
+ .debug_loc     0x00000274      0x20c ./main.o
+ .debug_loc     0x00000480       0x58 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_loc     0x000004d8       0x94 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_loc     0x0000056c       0x9a C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_loc     0x00000606       0x5c C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_loc     0x00000662      0xa90 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_loc     0x000010f2      0x201 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_loc     0x000012f3       0x4a C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_loc     0x0000133d      0x378 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_loc     0x000016b5      0x33e C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_loc     0x000019f3      0x4d0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_loc     0x00001ec3      0x4e4 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_loc     0x000023a7       0x38 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_loc     0x000023df      0x150 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_loc     0x0000252f      0x448 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_loc     0x00002977      0x1bc C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_aranges  0x00000000      0x1a8
+.debug_aranges  0x00000000      0x630
  .debug_aranges
-                0x00000000       0x70 ./cr_startup_lpc17.o
+                0x00000000       0x30 ./Sensor.o
  .debug_aranges
-                0x00000070       0x50 ./main.o
+                0x00000030       0x70 ./cr_startup_lpc17.o
  .debug_aranges
-                0x000000c0       0x28 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x000000a0       0x68 ./main.o
  .debug_aranges
-                0x000000e8       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+                0x00000108       0x28 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
  .debug_aranges
-                0x00000108       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+                0x00000130       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
  .debug_aranges
-                0x00000128       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+                0x00000150       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
  .debug_aranges
-                0x00000148       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x00000170       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
  .debug_aranges
-                0x00000168       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+                0x00000190       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
  .debug_aranges
-                0x00000188       0x20 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                0x000001b0       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_aranges
+                0x000001d0       0x20 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_aranges
+                0x000001f0       0x98 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_aranges
+                0x00000288       0x90 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_aranges
+                0x00000318       0xc8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_aranges
+                0x000003e0       0xd0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_aranges
+                0x000004b0       0x20 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_aranges
+                0x000004d0       0x48 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_aranges
+                0x00000518       0xb8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_aranges
+                0x000005d0       0x60 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_ranges   0x00000000      0x130
- .debug_ranges  0x00000000       0x60 ./cr_startup_lpc17.o
- .debug_ranges  0x00000060       0x40 ./main.o
- .debug_ranges  0x000000a0       0x18 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_ranges  0x000000b8       0x78 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+.debug_ranges   0x00000000      0x528
+ .debug_ranges  0x00000000       0x20 ./Sensor.o
+ .debug_ranges  0x00000020       0x60 ./cr_startup_lpc17.o
+ .debug_ranges  0x00000080       0x58 ./main.o
+ .debug_ranges  0x000000d8       0x18 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_ranges  0x000000f0       0x78 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_ranges  0x00000168       0x88 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_ranges  0x000001f0       0x80 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_ranges  0x00000270       0xb8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_ranges  0x00000328       0xc0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_ranges  0x000003e8       0x10 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_ranges  0x000003f8       0x38 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_ranges  0x00000430       0xa8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_ranges  0x000004d8       0x50 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_line     0x00000000     0x2d41
- .debug_line    0x00000000      0x45e ./cr_startup_lpc17.o
- .debug_line    0x0000045e      0x5b7 ./main.o
- .debug_line    0x00000a15      0x413 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_line    0x00000e28      0x4fb C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .debug_line    0x00001323      0x4fb C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .debug_line    0x0000181e      0x2dc C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .debug_line    0x00001afa      0x817 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .debug_line    0x00002311      0x535 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .debug_line    0x00002846      0x4fb C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+.debug_line     0x00000000     0x6422
+ .debug_line    0x00000000      0x430 ./Sensor.o
+ .debug_line    0x00000430      0x465 ./cr_startup_lpc17.o
+ .debug_line    0x00000895      0x74e ./main.o
+ .debug_line    0x00000fe3      0x413 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_line    0x000013f6      0x4fb C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_line    0x000018f1      0x4fb C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_line    0x00001dec      0x2dc C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_line    0x000020c8      0x817 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_line    0x000028df      0x535 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_line    0x00002e14      0x4fb C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_line    0x0000330f      0x58e C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_line    0x0000389d      0x767 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_line    0x00004004       0x82 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .debug_line    0x00004086      0x5de C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_line    0x00004664      0x8f9 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_line    0x00004f5d      0x37e C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_line    0x000052db      0x45d C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_line    0x00005738      0x82c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_line    0x00005f64      0x4be C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_macinfo  0x00000000    0x4a3f4
+.debug_macinfo  0x00000000    0xa0a07
  .debug_macinfo
-                0x00000000     0x3d1a ./cr_startup_lpc17.o
+                0x00000000     0xa478 ./Sensor.o
  .debug_macinfo
-                0x00003d1a     0x9bbd ./main.o
+                0x0000a478     0x3d1a ./cr_startup_lpc17.o
  .debug_macinfo
-                0x0000d8d7     0x83f8 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x0000e192     0xc778 ./main.o
  .debug_macinfo
-                0x00015ccf     0x9de1 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+                0x0001a90a     0x83f8 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
  .debug_macinfo
-                0x0001fab0     0x9e2d C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+                0x00022d02     0x9de1 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
  .debug_macinfo
-                0x000298dd     0x2b75 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+                0x0002cae3     0x9e2d C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
  .debug_macinfo
-                0x0002c452     0xa761 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x00036910     0x2b75 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
  .debug_macinfo
-                0x00036bb3     0x9f77 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+                0x00039485     0xa761 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
  .debug_macinfo
-                0x00040b2a     0x98ca C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                0x00043be6     0x9f77 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_macinfo
+                0x0004db5d     0x98ca C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_macinfo
+                0x00057427     0x8e3a C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_macinfo
+                0x00060261     0xa143 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_macinfo
+                0x0006a3a4     0x332a C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .debug_macinfo
+                0x0006d6ce     0x86b8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_macinfo
+                0x00075d86     0xa5d8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_macinfo
+                0x0008035e     0x400d C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_macinfo
+                0x0008436b     0x87d3 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_macinfo
+                0x0008cb3e     0xa8d0 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_macinfo
+                0x0009740e     0x95f9 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
 
-.debug_str      0x00000000      0xfcb
- .debug_str     0x00000000      0x1e6 ./cr_startup_lpc17.o
-                                0x21a (size before relaxing)
- .debug_str     0x000001e6      0x123 ./main.o
-                                0x24e (size before relaxing)
- .debug_str     0x00000309      0x1ed C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+.debug_str      0x00000000     0x2577
+ .debug_str     0x00000000      0x16c ./Sensor.o
+                                0x1a9 (size before relaxing)
+ .debug_str     0x0000016c       0xee ./cr_startup_lpc17.o
+                                0x221 (size before relaxing)
+ .debug_str     0x0000025a      0x2ca ./main.o
+                                0x420 (size before relaxing)
+ .debug_str     0x00000524      0x1e4 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
                                 0x2bc (size before relaxing)
- .debug_str     0x000004f6      0x181 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_str     0x00000708      0x181 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
                                 0x27c (size before relaxing)
- .debug_str     0x00000677       0x54 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_str     0x00000889       0x54 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
                                 0x188 (size before relaxing)
- .debug_str     0x000006cb       0x37 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_str     0x000008dd       0x37 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
                                 0x110 (size before relaxing)
- .debug_str     0x00000702      0x6e7 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_str     0x00000914      0x6e7 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
                                 0x8d0 (size before relaxing)
- .debug_str     0x00000de9      0x150 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_str     0x00000ffb      0x150 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
                                 0x2a3 (size before relaxing)
- .debug_str     0x00000f39       0x92 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_str     0x0000114b       0x92 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
                                 0x26a (size before relaxing)
+ .debug_str     0x000011dd      0x368 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+                                0x4fd (size before relaxing)
+ .debug_str     0x00001545      0x20b C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+                                0x3b5 (size before relaxing)
+ .debug_str     0x00001750       0x11 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+                                 0xc0 (size before relaxing)
+ .debug_str     0x00001761      0x379 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+                                0x471 (size before relaxing)
+ .debug_str     0x00001ada      0x52d C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+                                0x807 (size before relaxing)
+ .debug_str     0x00002007       0x32 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+                                0x14a (size before relaxing)
+ .debug_str     0x00002039      0x214 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+                                0x3a6 (size before relaxing)
+ .debug_str     0x0000224d      0x211 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+                                0x484 (size before relaxing)
+ .debug_str     0x0000245e      0x119 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
+                                0x3a2 (size before relaxing)
 
 .comment        0x00000000       0xe0
- .comment       0x00000000       0x70 ./cr_startup_lpc17.o
+ .comment       0x00000000       0x70 ./Sensor.o
                                  0x71 (size before relaxing)
+ .comment       0x00000000       0x71 ./cr_startup_lpc17.o
  .comment       0x00000000       0x71 ./main.o
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .comment       0x00000000       0x71 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .comment       0x00000000       0x71 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
  .comment       0x00000070       0x70 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
                                  0x71 (size before relaxing)
  .comment       0x00000000       0x71 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
@@ -980,121 +1424,150 @@ OUTPUT(Example06.axf elf32-littlearm)
 .ARM.attributes
                 0x00000000       0x31
  .ARM.attributes
-                0x00000000       0x33 ./cr_startup_lpc17.o
+                0x00000000       0x33 ./Sensor.o
  .ARM.attributes
-                0x00000033       0x33 ./main.o
+                0x00000033       0x33 ./cr_startup_lpc17.o
  .ARM.attributes
-                0x00000066       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+                0x00000066       0x33 ./main.o
  .ARM.attributes
-                0x00000099       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+                0x00000099       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
  .ARM.attributes
-                0x000000cc       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+                0x000000cc       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
  .ARM.attributes
-                0x000000ff       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+                0x000000ff       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
  .ARM.attributes
-                0x00000132       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+                0x00000132       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
  .ARM.attributes
-                0x00000165       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+                0x00000165       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
  .ARM.attributes
-                0x00000198       0x33 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+                0x00000198       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
  .ARM.attributes
-                0x000001cb       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
+                0x000001cb       0x33 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
  .ARM.attributes
-                0x000001ec       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
+                0x000001fe       0x33 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
  .ARM.attributes
-                0x0000021f       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
+                0x00000231       0x33 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
  .ARM.attributes
-                0x00000252       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
+                0x00000264       0x33 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(font5x7.o)
  .ARM.attributes
-                0x00000285       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
+                0x00000297       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
  .ARM.attributes
-                0x000002b8       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
+                0x000002ca       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
  .ARM.attributes
-                0x000002eb       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
+                0x000002fd       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
  .ARM.attributes
-                0x0000031e       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
+                0x00000330       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
  .ARM.attributes
-                0x00000351       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
+                0x00000363       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
  .ARM.attributes
-                0x00000384       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
+                0x00000396       0x33 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
  .ARM.attributes
-                0x000003b7       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
+                0x000003c9       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_write.o)
  .ARM.attributes
-                0x000003ea       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
+                0x000003ea       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr__main.o)
  .ARM.attributes
-                0x0000041d       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__fillbuf.o)
+                0x0000041d       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memset.o)
  .ARM.attributes
-                0x00000450       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
+                0x00000450       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fpprintf.o)
  .ARM.attributes
-                0x00000483       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
+                0x00000483       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(initio.o)
  .ARM.attributes
-                0x000004b6       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
+                0x000004b6       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcmp.o)
  .ARM.attributes
-                0x000004e9       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_frexpl.o)
+                0x000004e9       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(printf.o)
  .ARM.attributes
-                0x0000051c       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_ldexpl.o)
+                0x0000051c       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(setvbuf.o)
  .ARM.attributes
-                0x0000054f       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
+                0x0000054f       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(stdio.o)
  .ARM.attributes
-                0x00000582       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
+                0x00000582       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strcpy.o)
  .ARM.attributes
-                0x000005b5       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
+                0x000005b5       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strlen.o)
  .ARM.attributes
-                0x000005e8       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
+                0x000005e8       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(strncpy.o)
  .ARM.attributes
-                0x0000061b       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
+                0x0000061b       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__fillbuf.o)
  .ARM.attributes
-                0x0000064e       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
+                0x0000064e       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_deferredlazyseek.o)
  .ARM.attributes
-                0x00000681       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
+                0x00000681       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fdopen.o)
  .ARM.attributes
-                0x000006b4       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
+                0x000006b4       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_fflush.o)
  .ARM.attributes
-                0x000006e7       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
+                0x000006e7       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_frexpl.o)
  .ARM.attributes
-                0x0000071a       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
+                0x0000071a       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_ldexpl.o)
  .ARM.attributes
-                0x0000074d       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
+                0x0000074d       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_writebuf.o)
  .ARM.attributes
-                0x00000780       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_hugeval.o)
+                0x00000780       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(alloc.o)
  .ARM.attributes
-                0x000007b3       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(division.o)
+                0x000007b3       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(errno.o)
  .ARM.attributes
-                0x000007d4       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
+                0x000007e6       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fclose.o)
  .ARM.attributes
-                0x00000807       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
+                0x00000819       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fflush.o)
  .ARM.attributes
-                0x00000828       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_appexit.o)
+                0x0000084c       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(fseek.o)
  .ARM.attributes
-                0x00000849       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_close.o)
+                0x0000087f       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(ftell.o)
  .ARM.attributes
-                0x0000086a       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_flen.o)
+                0x000008b2       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(remove.o)
  .ARM.attributes
-                0x0000088b       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_istty.o)
+                0x000008e5       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(memcpy.o)
  .ARM.attributes
-                0x000008ac       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_read.o)
+                0x00000918       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(__init_alloc.o)
  .ARM.attributes
-                0x000008cd       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_readc.o)
+                0x0000094b       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_do_fflush.o)
  .ARM.attributes
-                0x000008ee       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_remove.o)
+                0x0000097e       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_c.a(_hugeval.o)
  .ARM.attributes
-                0x0000090f       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_rename.o)
+                0x000009b1       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(division.o)
  .ARM.attributes
-                0x00000930       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_seek.o)
+                0x000009d2       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(double.o)
  .ARM.attributes
-                0x00000951       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_tmpnam.o)
+                0x00000a05       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/armv7-m\libcr_eabihelpers.a(memcpy.o)
  .ARM.attributes
-                0x00000972       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_sbrk.o)
+                0x00000a26       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_appexit.o)
  .ARM.attributes
-                0x000009a5       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_check_heap.o)
+                0x00000a47       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_close.o)
+ .ARM.attributes
+                0x00000a68       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_flen.o)
+ .ARM.attributes
+                0x00000a89       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_istty.o)
+ .ARM.attributes
+                0x00000aaa       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_read.o)
+ .ARM.attributes
+                0x00000acb       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_readc.o)
+ .ARM.attributes
+                0x00000aec       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_remove.o)
+ .ARM.attributes
+                0x00000b0d       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_rename.o)
+ .ARM.attributes
+                0x00000b2e       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_seek.o)
+ .ARM.attributes
+                0x00000b4f       0x21 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(__sys_tmpnam.o)
+ .ARM.attributes
+                0x00000b70       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_sbrk.o)
+ .ARM.attributes
+                0x00000ba3       0x33 c:/nxp/lpcxpresso_5.2.6_2137/lpcxpresso/tools/bin/../lib/gcc/arm-none-eabi/4.6.2/../../../../arm-none-eabi/lib/armv7-m\libcr_semihost.a(_cr_check_heap.o)
 
-.debug_frame    0x00000000      0x708
- .debug_frame   0x00000000      0x120 ./cr_startup_lpc17.o
- .debug_frame   0x00000120       0xd4 ./main.o
- .debug_frame   0x000001f4       0x48 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
- .debug_frame   0x0000023c       0xc0 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
- .debug_frame   0x000002fc       0x48 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
- .debug_frame   0x00000344       0x28 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
- .debug_frame   0x0000036c      0x2cc C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
- .debug_frame   0x00000638       0x68 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
- .debug_frame   0x000006a0       0x68 C:\Users\aluno\Desktop\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+.debug_frame    0x00000000     0x15bc
+ .debug_frame   0x00000000       0x60 ./Sensor.o
+ .debug_frame   0x00000060      0x120 ./cr_startup_lpc17.o
+ .debug_frame   0x00000180      0x134 ./main.o
+ .debug_frame   0x000002b4       0x48 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\CMSISv1p30_LPC17xx\Debug\libCMSISv1p30_LPC17xx.a(system_LPC17xx.o)
+ .debug_frame   0x000002fc       0xc0 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(port.o)
+ .debug_frame   0x000003bc       0x48 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(basic_io.o)
+ .debug_frame   0x00000404       0x28 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(consoleprint.o)
+ .debug_frame   0x0000042c      0x2cc C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(tasks.o)
+ .debug_frame   0x000006f8       0x68 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(heap_2.o)
+ .debug_frame   0x00000760       0x68 C:\Users\aluno\Desktop\ec_020\source-code-for-LPC17xx-examples\FreeRTOS_Source\Debug\libFreeRTOS_Library.a(list.o)
+ .debug_frame   0x000007c8      0x208 C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(light.o)
+ .debug_frame   0x000009d0      0x1ec C:\Users\aluno\Desktop\ec_020\Lib_EaBaseBoard\Debug\libLib_EaBaseBoard.a(oled.o)
+ .debug_frame   0x00000bbc      0x2c4 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_gpio.o)
+ .debug_frame   0x00000e80      0x2c8 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_i2c.o)
+ .debug_frame   0x00001148       0x2c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_libcfg_default.o)
+ .debug_frame   0x00001174       0xbc C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_pinsel.o)
+ .debug_frame   0x00001230      0x280 C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_ssp.o)
+ .debug_frame   0x000014b0      0x10c C:\Users\aluno\Desktop\ec_020\Lib_MCU\Debug\libLib_MCU.a(lpc17xx_clkpwr.o)
