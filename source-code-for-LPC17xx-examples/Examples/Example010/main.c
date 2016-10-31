@@ -35,9 +35,129 @@
 #include "task.h"
 #include "queue.h"
 
+#include "lpc17xx_pinsel.h"
+#include "lpc17xx_gpio.h"
+#include "lpc17xx_i2c.h"
+#include "lpc17xx_ssp.h"
+#include "lpc17xx_timer.h"
+
+#include "oled.h"
+
+#include "Sensor.h"
+
 /* Demo includes. */
 #include "basic_io.h"
 
+static uint8_t buf[10];
+
+static void intToString(int value, uint8_t* pBuf, uint32_t len, uint32_t base)
+{
+    static const char* pAscii = "0123456789abcdefghijklmnopqrstuvwxyz";
+    int pos = 0;
+    int tmpValue = value;
+
+    // the buffer must not be null and at least have a length of 2 to handle one
+    // digit and null-terminator
+    if (pBuf == NULL || len < 2)
+    {
+        return;
+    }
+
+    // a valid base cannot be less than 2 or larger than 36
+    // a base value of 2 means binary representation. A value of 1 would mean only zeros
+    // a base larger than 36 can only be used if a larger alphabet were used.
+    if (base < 2 || base > 36)
+    {
+        return;
+    }
+
+    // negative value
+    if (value < 0)
+    {
+        tmpValue = -tmpValue;
+        value    = -value;
+        pBuf[pos++] = '-';
+    }
+
+    // calculate the required length of the buffer
+    do {
+        pos++;
+        tmpValue /= base;
+    } while(tmpValue > 0);
+
+
+    if (pos > len)
+    {
+        // the len parameter is invalid.
+        return;
+    }
+
+    pBuf[pos] = '\0';
+
+    do {
+        pBuf[--pos] = pAscii[value % base];
+        value /= base;
+    } while(value > 0);
+
+    return;
+}
+
+static void init_ssp(void)
+{
+	SSP_CFG_Type SSP_ConfigStruct;
+	PINSEL_CFG_Type PinCfg;
+
+	/*
+	 * Initialize SPI pin connect
+	 * P0.7 - SCK;
+	 * P0.8 - MISO
+	 * P0.9 - MOSI
+	 * P2.2 - SSEL - used as GPIO
+	 */
+	PinCfg.Funcnum = 2;
+	PinCfg.OpenDrain = 0;
+	PinCfg.Pinmode = 0;
+	PinCfg.Portnum = 0;
+	PinCfg.Pinnum = 7;
+	PINSEL_ConfigPin(&PinCfg);
+	PinCfg.Pinnum = 8;
+	PINSEL_ConfigPin(&PinCfg);
+	PinCfg.Pinnum = 9;
+	PINSEL_ConfigPin(&PinCfg);
+	PinCfg.Funcnum = 0;
+	PinCfg.Portnum = 2;
+	PinCfg.Pinnum = 2;
+	PINSEL_ConfigPin(&PinCfg);
+
+	SSP_ConfigStructInit(&SSP_ConfigStruct);
+
+	// Initialize SSP peripheral with parameter given in structure above
+	SSP_Init(LPC_SSP1, &SSP_ConfigStruct);
+
+	// Enable SSP peripheral
+	SSP_Cmd(LPC_SSP1, ENABLE);
+
+}
+
+
+static void init_i2c(void)
+{
+	PINSEL_CFG_Type PinCfg;
+
+	/* Initialize I2C2 pin connect */
+	PinCfg.Funcnum = 2;
+	PinCfg.Pinnum = 10;
+	PinCfg.Portnum = 0;
+	PINSEL_ConfigPin(&PinCfg);
+	PinCfg.Pinnum = 11;
+	PINSEL_ConfigPin(&PinCfg);
+
+	// Initialize I2C peripheral
+	I2C_Init(LPC_I2C2, 100000);
+
+	/* Enable I2C1 operation */
+	I2C_Cmd(LPC_I2C2, ENABLE);
+}
 
 /* The tasks to be created.  Two instances are created of the sender task while
 only a single instance is created of the receiver task. */
@@ -53,8 +173,19 @@ xQueueHandle xQueue;
 
 int main( void )
 {
+
+	init_i2c();
+	init_ssp();
+
+	oled_init();
+	Sensor_new();
+
+	oled_clearScreen(OLED_COLOR_WHITE);
+
+	oled_putString(1,1,  (uint8_t*)"LUZ: ", OLED_COLOR_BLACK, OLED_COLOR_WHITE);
+
     /* The queue is created to hold a maximum of 5 long values. */
-    xQueue = xQueueCreate( 5, sizeof( long ) );
+    xQueue = xQueueCreate( 5, sizeof( int ) );
 
 	if( xQueue != NULL )
 	{
@@ -64,7 +195,7 @@ int main( void )
 		will continuously write 200 to the queue.  Both tasks are created at
 		priority 1. */
 		xTaskCreate( vSenderTask, "Sender1", 240, ( void * ) 100, 1, NULL );
-		xTaskCreate( vSenderTask, "Sender2", 240, ( void * ) 200, 1, NULL );
+		//xTaskCreate( vSenderTask, "Sender2", 240, ( void * ) 200, 1, NULL );
 
 		/* Create the task that will read from the queue.  The task is created with
 		priority 2, so above the priority of the sender tasks. */
@@ -95,7 +226,6 @@ portBASE_TYPE xStatus;
 	queue is passed in via the task parameter rather than be hard coded.  This way
 	each instance can use a different value.  Cast the parameter to the required
 	type. */
-	lValueToSend = ( long ) pvParameters;
 
 	/* As per most tasks, this task is implemented within an infinite loop. */
 	for( ;; )
@@ -106,15 +236,19 @@ portBASE_TYPE xStatus;
 
 		The second parameter is the address of the data to be sent.
 
-		The third parameter is the Block time – the time the task should be kept
+		The third parameter is the Block time ï¿½ the time the task should be kept
 		in the Blocked state to wait for space to become available on the queue
-		should the queue already be full.  In this case we don’t specify a block
+		should the queue already be full.  In this case we donï¿½t specify a block
 		time because there should always be space in the queue. */
+		//xStatus = xQueueSendToBack( xQueue, &lValueToSend, 0 );
+
+		lValueToSend = ( long ) Sensor_read();
+
 		xStatus = xQueueSendToBack( xQueue, &lValueToSend, 0 );
 
 		if( xStatus != pdPASS )
 		{
-			/* We could not write to the queue because it was full – this must
+			/* We could not write to the queue because it was full ï¿½ this must
 			be an error as the queue should never contain more than one item! */
 			vPrintString( "Could not send to the queue.\r\n" );
 		}
@@ -150,7 +284,7 @@ const portTickType xTicksToWait = 100 / portTICK_RATE_MS;
 		placed.  In this case the buffer is simply the address of a variable that
 		has the required size to hold the received data. 
 
-		the last parameter is the block time – the maximum amount of time that the
+		the last parameter is the block time ï¿½ the maximum amount of time that the
 		task should remain in the Blocked state to wait for data to be available should
 		the queue already be empty. */
 		xStatus = xQueueReceive( xQueue, &lReceivedValue, xTicksToWait );
@@ -159,6 +293,10 @@ const portTickType xTicksToWait = 100 / portTICK_RATE_MS;
 		{
 			/* Data was successfully received from the queue, print out the received
 			value. */
+			int data = lReceivedValue;
+	        intToString(data, buf, 10, 10);
+	        oled_fillRect((1+6*6),1, 80, 8, OLED_COLOR_WHITE);
+	        oled_putString((1+6*6),1, buf, OLED_COLOR_BLACK, OLED_COLOR_WHITE);
 			vPrintStringAndNumber( "Received = ", lReceivedValue );
 		}
 		else
